@@ -194,6 +194,63 @@ header .container {
 
 /* deal end */
 
+/* reviews start */
+
+.review-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.review-section h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.review-section p {
+    color: #27272799;
+    margin: 30px 0;
+    width: 40%;
+    margin-bottom: 80px;
+}
+
+.review {
+    box-shadow: 0px 10px 10px #f1f1f1;
+    border-radius: 10px;
+    padding: 20px 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+.review:hover {
+    box-shadow: 0px 10px 30px #e5547336;
+}
+
+.review-avatar {
+    margin-bottom: 20px;
+    background-color: #E55473;
+    width: 20%;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.rating img{
+    width: 5%;
+}
+
+.review h4 {
+    font-size: 20px;
+}
+
+.review p {
+    margin: 20px auto;
+    width: 100%;
+}
+
+/* reviews end */
+
 /* instagram start */
 
 .instagram-section {
