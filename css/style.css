@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
 
+/* Common Styles start */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,3 +11,56 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pink-btn {
+    background-color: #E55473;
+    color: #fff;
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* Common Styles end */
+
+/* header start */
+
+header {
+    background-color: #e554731a;
+}
+
+header img {
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.half-width {
+    width: 40%;
+}
+
+.header-text-section {
+    display: flex;
+    align-items: center;
+}
+
+.header-text-section h1 {
+    font-size: 80px;
+    font-weight: 900;
+    color: #272727;
+}
+
+.header-text-section p {
+    color: #27272799;
+    margin: 30px 0;
+}
+
+/* header end */
