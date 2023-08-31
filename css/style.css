@@ -270,3 +270,31 @@ header .container {
 }
 
 /* subscribe end */
+
+/* footer start */
+
+footer {
+    background-color: #111010;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    color: #fff;
+}
+
+footer div {
+    width: 40%;
+}
+
+footer h3 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+footer p {
+    margin: 30px auto;
+    width: 80%;
+}
+
+/* footer end */
