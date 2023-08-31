@@ -193,3 +193,37 @@ header .container {
 }
 
 /* deal end */
+
+/* instagram start */
+
+.instagram-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.instagram-section h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.instagram-section p {
+    color: #27272799;
+    margin: 30px 0;
+    width: 40%;
+    margin-bottom: 80px;
+}
+
+.instagram-flowers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagram-flowers img {
+    margin: 0px 10px;
+}
+
+/* instagram end */
