@@ -227,3 +227,46 @@ header .container {
 }
 
 /* instagram end */
+
+/* subscribe start */
+
+.subscribe-section {
+    min-height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/subscribe-bg.png');
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+
+.subscribe-section h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.subscribe-section p {
+    color: #27272799;
+    margin: 30px 0;
+    width: 40%;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-row input {
+    padding: 15px;
+    width: 800px;
+    margin-right: 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* subscribe end */
